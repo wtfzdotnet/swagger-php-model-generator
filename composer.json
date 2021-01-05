@@ -1,5 +1,5 @@
 {
-	"name": "sturents/swagger-php-model-generator",
+	"name": "wtfzdotnet/swagger-php-model-generator",
     "license": "MIT",
 	"authors": [
 		{
@@ -8,11 +8,11 @@
 		}
 	],
 	"require": {
-		"php": ">=7.1",
-		"nette/php-generator": "^3.0",
-		"symfony/yaml": "^3.4",
-		"symfony/serializer": "^3.4",
-		"psr/http-message": "^1.0"
+		"php": "^7.3 || ^7.4 || ^8.0",
+		"nette/php-generator": "*",
+		"symfony/yaml": "*",
+		"symfony/serializer": "*",
+		"psr/http-message": "*"
 	},
 	"require-dev": {
 		"roave/security-advisories": "dev-master"
